@@ -62,6 +62,6 @@ export default {
   build: {},
 
   router:{
-    base: '/noface/sansvisage/'
+    base: '/noface/sansvisage/dist/'
   }
 }
