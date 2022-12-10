@@ -10,7 +10,8 @@
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:prettier",
     "lintfix": "prettier --write --list-different .",
-    "test": "jest"
+    "test": "jest",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
@@ -29,6 +30,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^27.4.4",
     "eslint-config-prettier": "^8.3.0",
+    "gh-pages": "^4.0.0",
     "jest": "^27.4.4",
     "postcss": "^8.4.4",
     "prettier": "^2.5.1",
