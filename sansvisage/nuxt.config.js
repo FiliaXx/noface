@@ -62,6 +62,10 @@ export default {
   build: {},
 
   router:{
-    base: '/'
+    base: '/sansvisage/'
+  },
+
+  generate: {
+    fallback: true
   }
 }
